@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "helvet";
+	src: url('../font/helvetica_neue_ultralight.ttf');
+}
+@font-face {
+	font-family: "Ubuntu";
+	src: url('../font/Ubuntu-L.ttf');
+}
 /* A Linux- and Windows-friendly sans-serif font stack: http://prospects.mhurrell.co.uk/post/updating-the-helvetica-font-stack */
 body {font: 13px Helmet, Freesans, sans-serif;}
 
@@ -6,6 +14,32 @@ body {font: 13px Helmet, Freesans, sans-serif;}
 /* We like off-black for text. */
 body, select, input, textarea {color: #333;}
 
+header h1 a{
+	text-decoration: none;
+	font-size: 6em;
+	font-family: helvet, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #69f;
+	font-weight: 500;
+}
+header h1 a:hover{
+	color: #2E64FE;
+	text-decoration: none;
+}
+header h3{
+	font-size: 2.5em;
+	font-family: helvet, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #69f;
+	font-weight: 500;
+	font-style: italic;
+}
+.wrapper{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wrapper header{
+	text-align: center;
+}
 a {color: #03f;}
 a:hover {color: #69f;}
 
